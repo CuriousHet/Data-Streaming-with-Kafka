@@ -1,5 +1,4 @@
-# Kafka Watcher with Telegram Bot Integration
-
+# Data Streaming with Kafka
 This project monitors a YouTube playlist using Confluent Kafka, Google API, and ksqlDB, and triggers real-time notifications via a Telegram bot when changes are detected (such as added likes,comments). 
 
 ## Features
