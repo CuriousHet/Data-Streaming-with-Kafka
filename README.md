@@ -136,7 +136,12 @@ source env/Scripts/activate  # On Windows
 Run the ksqlDB queries and ensure that the Telegram Bot is correctly configured. Your notifications will appear in Telegram once playlist changes are detected.
 
 ---
+## Note:
 
+- You have to run `youtube_watcher.py`(static) or `youtube_watcher_automated.py` (dynamic) to see changes in playlist.
+- 
+- All this changes will be send via Telegram Bot.
+  
 ## Troubleshooting
 
 - **API Key issues**: Make sure all API keys and secrets are correctly set in `config.py`.
@@ -147,9 +152,6 @@ Run the ksqlDB queries and ensure that the Telegram Bot is correctly configured.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Note:
 
-- You have to run `youtube_watcher.py` to see changes in playlist.
-- All this changes will be send via Telegram Bot.
  
 ---
